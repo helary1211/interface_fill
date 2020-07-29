@@ -1,0 +1,208 @@
+{
+  "uid" : "4421f5536eab9426",
+  "name" : "无条件查询",
+  "fullName" : "cases.test_geteventlist#test_geteventlist01",
+  "historyId" : "d08f7e1daf8bae270356a158d0d66807",
+  "time" : {
+    "start" : 1595412388489,
+    "stop" : 1595412388551,
+    "duration" : 62
+  },
+  "description" : "\n    查询所有活动\n    :return:\n    ",
+  "descriptionHtml" : "<pre><code>查询所有活动\n:return:\n</code></pre>\n",
+  "status" : "failed",
+  "statusMessage" : "AssertionError: 响应json节点检查失败，实际结果【0】，预期结果【1】，json节点路径【error_code】",
+  "statusTrace" : "get = <function get.<locals>.__get at 0x000001951DE81488>\nset = <function set.<locals>.__set at 0x000001951DE13730>\n\n    @feature('查询活动接口')\n    @title('无条件查询')\n    @order(order=2)\n    def test_geteventlist01(get,set):\n        '''\n        查询所有活动\n        :return:\n        '''\n        client = Client(url=\"get_eventlist/\",method=METHOD.GET,body_type=BODY_TYPE.FORM,params={\"rstr\":get('rstr')})\n        client.set_headers({\"uid\":get('uid'),\"key\":get('key')})\n        client.send()\n        client.check_status_code(200)\n        client.check_res_times_less_than(1000)\n>       client.check_json_value('error_code',1)\n\ncases\\test_geteventlist.py:23: \n_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _\n\nself = <core.client.Client object at 0x000001951DE1E898>, path = 'error_code'\nexpected = 1\n\n    @allure.step('检查json节点数据')\n    def check_json_value(self,path,expected):\n        actual_value = self.get_json_value(path)\n        assert str(actual_value) == str(expected), '响应json节点检查失败，实际结果【{actual}】，预期结果【{expected}】，json节点路径【{path}】'\\\n>           .format(actual=actual_value,expected=expected,path=path)\nE       AssertionError: 响应json节点检查失败，实际结果【0】，预期结果【1】，json节点路径【error_code】\n\ncore\\client.py:162: AssertionError",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "get",
+    "time" : {
+      "start" : 1595412388489,
+      "stop" : 1595412388489,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  }, {
+    "name" : "set",
+    "time" : {
+      "start" : 1595412388489,
+      "stop" : 1595412388489,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  } ],
+  "testStage" : {
+    "description" : "\n    查询所有活动\n    :return:\n    ",
+    "status" : "failed",
+    "statusMessage" : "AssertionError: 响应json节点检查失败，实际结果【0】，预期结果【1】，json节点路径【error_code】",
+    "statusTrace" : "get = <function get.<locals>.__get at 0x000001951DE81488>\nset = <function set.<locals>.__set at 0x000001951DE13730>\n\n    @feature('查询活动接口')\n    @title('无条件查询')\n    @order(order=2)\n    def test_geteventlist01(get,set):\n        '''\n        查询所有活动\n        :return:\n        '''\n        client = Client(url=\"get_eventlist/\",method=METHOD.GET,body_type=BODY_TYPE.FORM,params={\"rstr\":get('rstr')})\n        client.set_headers({\"uid\":get('uid'),\"key\":get('key')})\n        client.send()\n        client.check_status_code(200)\n        client.check_res_times_less_than(1000)\n>       client.check_json_value('error_code',1)\n\ncases\\test_geteventlist.py:23: \n_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _\n\nself = <core.client.Client object at 0x000001951DE1E898>, path = 'error_code'\nexpected = 1\n\n    @allure.step('检查json节点数据')\n    def check_json_value(self,path,expected):\n        actual_value = self.get_json_value(path)\n        assert str(actual_value) == str(expected), '响应json节点检查失败，实际结果【{actual}】，预期结果【{expected}】，json节点路径【{path}】'\\\n>           .format(actual=actual_value,expected=expected,path=path)\nE       AssertionError: 响应json节点检查失败，实际结果【0】，预期结果【1】，json节点路径【error_code】\n\ncore\\client.py:162: AssertionError",
+    "steps" : [ {
+      "name" : "请求接口详细信息",
+      "time" : {
+        "start" : 1595412388489,
+        "stop" : 1595412388550,
+        "duration" : 61
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "739aa5688f14ee76",
+        "name" : "请求地址",
+        "source" : "739aa5688f14ee76.txt",
+        "type" : "text/plain",
+        "size" : 49
+      }, {
+        "uid" : "af64c3d5caa22098",
+        "name" : "请求地址",
+        "source" : "af64c3d5caa22098.txt",
+        "type" : "text/plain",
+        "size" : 3
+      }, {
+        "uid" : "665fab937f73129d",
+        "name" : "请求头",
+        "source" : "665fab937f73129d.txt",
+        "type" : "text/plain",
+        "size" : 55
+      }, {
+        "uid" : "e3749ec1f166971c",
+        "name" : "请求正文",
+        "source" : "e3749ec1f166971c.txt",
+        "type" : "text/plain",
+        "size" : 2
+      }, {
+        "uid" : "c836dfe502504a86",
+        "name" : "响应内容",
+        "source" : "c836dfe502504a86.txt",
+        "type" : "text/plain",
+        "size" : 5971
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : true,
+      "attachmentsCount" : 5,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "检查响应状态码",
+      "time" : {
+        "start" : 1595412388550,
+        "stop" : 1595412388550,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "status_code",
+        "value" : "200"
+      } ],
+      "stepsCount" : 0,
+      "hasContent" : true,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "检查响应时间",
+      "time" : {
+        "start" : 1595412388550,
+        "stop" : 1595412388550,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "times",
+        "value" : "1000"
+      } ],
+      "stepsCount" : 0,
+      "hasContent" : true,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "检查json节点数据",
+      "time" : {
+        "start" : 1595412388550,
+        "stop" : 1595412388550,
+        "duration" : 0
+      },
+      "status" : "failed",
+      "statusMessage" : "AssertionError: 响应json节点检查失败，实际结果【0】，预期结果【1】，json节点路径【error_code】\n",
+      "statusTrace" : "  File \"C:\\Users\\chenmeihuan\\AppData\\Local\\Programs\\Python\\Python37\\lib\\site-packages\\allure_commons\\_allure.py\", line 157, in impl\n    return func(*a, **kw)\n  File \"E:\\cmh\\personal\\pycharmworkspace\\interface_fill\\core\\client.py\", line 162, in check_json_value\n    .format(actual=actual_value,expected=expected,path=path)\n",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "path",
+        "value" : "'error_code'"
+      }, {
+        "name" : "expected",
+        "value" : "1"
+      } ],
+      "stepsCount" : 0,
+      "hasContent" : true,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : true
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 4,
+    "hasContent" : true,
+    "attachmentsCount" : 5,
+    "shouldDisplayMessage" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "查询活动接口"
+  }, {
+    "name" : "tag",
+    "value" : "run(order=2)"
+  }, {
+    "name" : "parentSuite",
+    "value" : "cases"
+  }, {
+    "name" : "suite",
+    "value" : "test_geteventlist"
+  }, {
+    "name" : "host",
+    "value" : "chenmeihuan-l1"
+  }, {
+    "name" : "thread",
+    "value" : "4508-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "cases.test_geteventlist"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ "run(order=2)" ]
+  },
+  "source" : "4421f5536eab9426.json",
+  "parameterValues" : [ ]
+}

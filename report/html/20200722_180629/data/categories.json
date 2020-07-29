@@ -1,0 +1,26 @@
+{
+  "uid" : "4b4757e66a1912dae1a509f688f20b0f",
+  "name" : "categories",
+  "children" : [ {
+    "name" : "Product defects",
+    "children" : [ {
+      "name" : "AssertionError: 响应json节点检查失败，实际结果【0】，预期结果【1】，json节点路径【error_code】",
+      "children" : [ {
+        "name" : "无条件查询",
+        "uid" : "4d7647125c94fb81",
+        "parentUid" : "ebe24937fa021a7e4894f3abd10d2ca8",
+        "status" : "failed",
+        "time" : {
+          "start" : 1595412388964,
+          "stop" : 1595412389023,
+          "duration" : 59
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "ebe24937fa021a7e4894f3abd10d2ca8"
+    } ],
+    "uid" : "8fb3a91ba5aaf9de24cc8a92edc82b5d"
+  } ]
+}

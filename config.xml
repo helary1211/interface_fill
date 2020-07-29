@@ -1,0 +1,28 @@
+<运行配置>
+    <全局配置>
+        <账号信息>
+            <uid>4</uid>
+            <key>ab97f63764b608f6d01909d67b4a1c6d</key>
+            <rstr>123</rstr>
+        </账号信息>
+        <MySql>
+            <host>rm-2zekunr72cc85tf49no.mysql.rds.aliyuncs.com</host>
+            <user>root</user>
+            <passwd>liulaoshi@123</passwd>
+            <port>3306</port>
+            <db>event</db>
+        </MySql>
+    </全局配置>
+    <用例集合>
+        <login-login01 run="1"/>
+        <geteventlist-geteventlist01 run="1" />
+        <order-order01 run="1" />
+    </用例集合>
+    <接口模板>
+        <login>
+            <地址>login/</地址>
+            <请求方式>POST</请求方式>
+            <正文格式>form</正文格式>
+        </login>
+    </接口模板>
+</运行配置>

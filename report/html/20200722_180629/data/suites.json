@@ -1,0 +1,86 @@
+{
+  "uid" : "98d3104e051c652961429bf95fa0b5d6",
+  "name" : "suites",
+  "children" : [ {
+    "name" : "cases",
+    "children" : [ {
+      "name" : "test_login",
+      "children" : [ {
+        "name" : "登录数据测试",
+        "uid" : "ceae60f3ef35f9c2",
+        "parentUid" : "33ebf701f761a58373538875f0d6377d",
+        "status" : "passed",
+        "time" : {
+          "start" : 1595412388288,
+          "stop" : 1595412388412,
+          "duration" : 124
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "'0'", "'登录成功'", "'MTIzMTIzNDU2'", "'zhangsan'" ]
+      }, {
+        "name" : "登录数据测试",
+        "uid" : "b70d1f0d9b6c03e9",
+        "parentUid" : "33ebf701f761a58373538875f0d6377d",
+        "status" : "passed",
+        "time" : {
+          "start" : 1595412388423,
+          "stop" : 1595412388440,
+          "duration" : 17
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "'10000'", "'密码错误'", "'123456'", "'zhangsan'" ]
+      }, {
+        "name" : "登录数据测试",
+        "uid" : "fe6b3a8cc4afedc7",
+        "parentUid" : "33ebf701f761a58373538875f0d6377d",
+        "status" : "passed",
+        "time" : {
+          "start" : 1595412388451,
+          "stop" : 1595412388477,
+          "duration" : 26
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "'10001'", "'密码为空'", "''", "'zhangsan'" ]
+      } ],
+      "uid" : "33ebf701f761a58373538875f0d6377d"
+    }, {
+      "name" : "test_geteventlist",
+      "children" : [ {
+        "name" : "无条件查询",
+        "uid" : "4d7647125c94fb81",
+        "parentUid" : "e77896829842e3aa52f4c697c9d8dadd",
+        "status" : "failed",
+        "time" : {
+          "start" : 1595412388964,
+          "stop" : 1595412389023,
+          "duration" : 59
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "e77896829842e3aa52f4c697c9d8dadd"
+    }, {
+      "name" : "test_order",
+      "children" : [ {
+        "name" : "预定成功",
+        "uid" : "ff767b4b4f961d9d",
+        "parentUid" : "2aa0e428620c3caee75d7438e2f85b8c",
+        "status" : "passed",
+        "time" : {
+          "start" : 1595412389042,
+          "stop" : 1595412389077,
+          "duration" : 35
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "2aa0e428620c3caee75d7438e2f85b8c"
+    } ],
+    "uid" : "9614ab5598a04b276864cf0744ce0d93"
+  } ]
+}

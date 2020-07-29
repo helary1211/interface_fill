@@ -1,0 +1,201 @@
+{
+  "uid" : "b70d1f0d9b6c03e9",
+  "name" : "登录数据测试",
+  "fullName" : "cases.test_login#test_login01",
+  "historyId" : "0962eec76ed6fc7cf26cfb8a2705cf01",
+  "time" : {
+    "start" : 1595412388423,
+    "stop" : 1595412388440,
+    "duration" : 17
+  },
+  "description" : "\n    登录数据测试\n    :return:\n    ",
+  "descriptionHtml" : "<pre><code>登录数据测试\n:return:\n</code></pre>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "client",
+    "time" : {
+      "start" : 1595412388422,
+      "stop" : 1595412388423,
+      "duration" : 1
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  } ],
+  "testStage" : {
+    "description" : "\n    登录数据测试\n    :return:\n    ",
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "请求接口详细信息",
+      "time" : {
+        "start" : 1595412388423,
+        "stop" : 1595412388440,
+        "duration" : 17
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "e7e6155a4726bfb",
+        "name" : "请求地址",
+        "source" : "e7e6155a4726bfb.txt",
+        "type" : "text/plain",
+        "size" : 41
+      }, {
+        "uid" : "fb35d37af6d1566d",
+        "name" : "请求地址",
+        "source" : "fb35d37af6d1566d.txt",
+        "type" : "text/plain",
+        "size" : 4
+      }, {
+        "uid" : "8ee75d3f6d71e2c4",
+        "name" : "请求头",
+        "source" : "8ee75d3f6d71e2c4.txt",
+        "type" : "text/plain",
+        "size" : 53
+      }, {
+        "uid" : "83740eeb5f86a82f",
+        "name" : "请求正文",
+        "source" : "83740eeb5f86a82f.txt",
+        "type" : "text/plain",
+        "size" : 46
+      }, {
+        "uid" : "6264dd457d611a4c",
+        "name" : "响应内容",
+        "source" : "6264dd457d611a4c.txt",
+        "type" : "text/plain",
+        "size" : 21
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : true,
+      "attachmentsCount" : 5,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "检查响应状态码",
+      "time" : {
+        "start" : 1595412388440,
+        "stop" : 1595412388440,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "status_code",
+        "value" : "200"
+      } ],
+      "stepsCount" : 0,
+      "hasContent" : true,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "检查响应时间",
+      "time" : {
+        "start" : 1595412388440,
+        "stop" : 1595412388440,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "times",
+        "value" : "1000"
+      } ],
+      "stepsCount" : 0,
+      "hasContent" : true,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "检查json节点数据",
+      "time" : {
+        "start" : 1595412388440,
+        "stop" : 1595412388440,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "path",
+        "value" : "'error_code'"
+      }, {
+        "name" : "expected",
+        "value" : "'10000'"
+      } ],
+      "stepsCount" : 0,
+      "hasContent" : true,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 4,
+    "hasContent" : true,
+    "attachmentsCount" : 5,
+    "shouldDisplayMessage" : false
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "登录接口"
+  }, {
+    "name" : "tag",
+    "value" : "run(order=1)"
+  }, {
+    "name" : "parentSuite",
+    "value" : "cases"
+  }, {
+    "name" : "suite",
+    "value" : "test_login"
+  }, {
+    "name" : "host",
+    "value" : "chenmeihuan-l1"
+  }, {
+    "name" : "thread",
+    "value" : "4508-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "cases.test_login"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "error_code",
+    "value" : "'10000'"
+  }, {
+    "name" : "msg",
+    "value" : "'密码错误'"
+  }, {
+    "name" : "password",
+    "value" : "'123456'"
+  }, {
+    "name" : "username",
+    "value" : "'zhangsan'"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ "run(order=1)" ]
+  },
+  "source" : "b70d1f0d9b6c03e9.json",
+  "parameterValues" : [ "'10000'", "'密码错误'", "'123456'", "'zhangsan'" ]
+}

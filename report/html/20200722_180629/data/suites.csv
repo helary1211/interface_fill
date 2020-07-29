@@ -1,0 +1,21 @@
+"Status","Start Time","Stop Time","Duration in ms","Parent Suite","Suite","Sub Suite","Test Class","Test Method","Name","Description"
+"failed","Wed Jul 22 18:06:28 GMT+08:00 2020","Wed Jul 22 18:06:29 GMT+08:00 2020","59","cases","test_geteventlist","","","","无条件查询","
+    查询所有活动
+    :return:
+    "
+"passed","Wed Jul 22 18:06:28 GMT+08:00 2020","Wed Jul 22 18:06:28 GMT+08:00 2020","17","cases","test_login","","","","登录数据测试","
+    登录数据测试
+    :return:
+    "
+"passed","Wed Jul 22 18:06:29 GMT+08:00 2020","Wed Jul 22 18:06:29 GMT+08:00 2020","35","cases","test_order","","","","预定成功","
+    预定活动成功
+    :return:
+    "
+"passed","Wed Jul 22 18:06:28 GMT+08:00 2020","Wed Jul 22 18:06:28 GMT+08:00 2020","26","cases","test_login","","","","登录数据测试","
+    登录数据测试
+    :return:
+    "
+"passed","Wed Jul 22 18:06:28 GMT+08:00 2020","Wed Jul 22 18:06:28 GMT+08:00 2020","124","cases","test_login","","","","登录数据测试","
+    登录数据测试
+    :return:
+    "

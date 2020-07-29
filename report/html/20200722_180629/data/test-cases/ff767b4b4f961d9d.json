@@ -1,0 +1,174 @@
+{
+  "uid" : "ff767b4b4f961d9d",
+  "name" : "预定成功",
+  "fullName" : "cases.test_order#test_order01",
+  "historyId" : "7d94785b336499bf4adc2845926c175b",
+  "time" : {
+    "start" : 1595412389042,
+    "stop" : 1595412389077,
+    "duration" : 35
+  },
+  "description" : "\n    预定活动成功\n    :return:\n    ",
+  "descriptionHtml" : "<pre><code>预定活动成功\n:return:\n</code></pre>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "description" : "\n    预定活动成功\n    :return:\n    ",
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "请求接口详细信息",
+      "time" : {
+        "start" : 1595412389042,
+        "stop" : 1595412389076,
+        "duration" : 34
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "39b9b9af8e447420",
+        "name" : "请求地址",
+        "source" : "39b9b9af8e447420.txt",
+        "type" : "text/plain",
+        "size" : 41
+      }, {
+        "uid" : "4e4d09f96fdcf08c",
+        "name" : "请求地址",
+        "source" : "4e4d09f96fdcf08c.txt",
+        "type" : "text/plain",
+        "size" : 4
+      }, {
+        "uid" : "bfa9aafcafa879d8",
+        "name" : "请求头",
+        "source" : "bfa9aafcafa879d8.txt",
+        "type" : "text/plain",
+        "size" : 108
+      }, {
+        "uid" : "13723f24f199a36e",
+        "name" : "请求正文",
+        "source" : "13723f24f199a36e.txt",
+        "type" : "text/plain",
+        "size" : 24
+      }, {
+        "uid" : "ed2c6fd4ac358deb",
+        "name" : "响应内容",
+        "source" : "ed2c6fd4ac358deb.txt",
+        "type" : "text/plain",
+        "size" : 52
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : true,
+      "attachmentsCount" : 5,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "检查响应状态码",
+      "time" : {
+        "start" : 1595412389077,
+        "stop" : 1595412389077,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "status_code",
+        "value" : "200"
+      } ],
+      "stepsCount" : 0,
+      "hasContent" : true,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "检查响应时间",
+      "time" : {
+        "start" : 1595412389077,
+        "stop" : 1595412389077,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "times",
+        "value" : "1000"
+      } ],
+      "stepsCount" : 0,
+      "hasContent" : true,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "检查json节点数据",
+      "time" : {
+        "start" : 1595412389077,
+        "stop" : 1595412389077,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "path",
+        "value" : "'error_code'"
+      }, {
+        "name" : "expected",
+        "value" : "0"
+      } ],
+      "stepsCount" : 0,
+      "hasContent" : true,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 4,
+    "hasContent" : true,
+    "attachmentsCount" : 5,
+    "shouldDisplayMessage" : false
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "活动预定接口"
+  }, {
+    "name" : "tag",
+    "value" : "run(order=3)"
+  }, {
+    "name" : "parentSuite",
+    "value" : "cases"
+  }, {
+    "name" : "suite",
+    "value" : "test_order"
+  }, {
+    "name" : "host",
+    "value" : "chenmeihuan-l1"
+  }, {
+    "name" : "thread",
+    "value" : "4508-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "cases.test_order"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ "run(order=3)" ]
+  },
+  "source" : "ff767b4b4f961d9d.json",
+  "parameterValues" : [ ]
+}

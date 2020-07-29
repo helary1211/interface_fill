@@ -1,0 +1,51 @@
+[ {
+  "uid" : "ff767b4b4f961d9d",
+  "name" : "预定成功",
+  "time" : {
+    "start" : 1595412389042,
+    "stop" : 1595412389077,
+    "duration" : 35
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "fe6b3a8cc4afedc7",
+  "name" : "登录数据测试",
+  "time" : {
+    "start" : 1595412388451,
+    "stop" : 1595412388477,
+    "duration" : 26
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "4d7647125c94fb81",
+  "name" : "无条件查询",
+  "time" : {
+    "start" : 1595412388964,
+    "stop" : 1595412389023,
+    "duration" : 59
+  },
+  "status" : "failed",
+  "severity" : "normal"
+}, {
+  "uid" : "ceae60f3ef35f9c2",
+  "name" : "登录数据测试",
+  "time" : {
+    "start" : 1595412388288,
+    "stop" : 1595412388412,
+    "duration" : 124
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "b70d1f0d9b6c03e9",
+  "name" : "登录数据测试",
+  "time" : {
+    "start" : 1595412388423,
+    "stop" : 1595412388440,
+    "duration" : 17
+  },
+  "status" : "passed",
+  "severity" : "normal"
+} ]

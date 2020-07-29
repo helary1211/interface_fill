@@ -1,0 +1,82 @@
+{
+  "uid" : "b1a8273437954620fa374b796ffaacdd",
+  "name" : "behaviors",
+  "children" : [ {
+    "name" : "登录接口",
+    "children" : [ {
+      "name" : "登录数据测试",
+      "uid" : "ceae60f3ef35f9c2",
+      "parentUid" : "0d5b5d5ed9a9bc64a2ee56bbf79043e1",
+      "status" : "passed",
+      "time" : {
+        "start" : 1595412388288,
+        "stop" : 1595412388412,
+        "duration" : 124
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "'0'", "'登录成功'", "'MTIzMTIzNDU2'", "'zhangsan'" ]
+    }, {
+      "name" : "登录数据测试",
+      "uid" : "b70d1f0d9b6c03e9",
+      "parentUid" : "0d5b5d5ed9a9bc64a2ee56bbf79043e1",
+      "status" : "passed",
+      "time" : {
+        "start" : 1595412388423,
+        "stop" : 1595412388440,
+        "duration" : 17
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "'10000'", "'密码错误'", "'123456'", "'zhangsan'" ]
+    }, {
+      "name" : "登录数据测试",
+      "uid" : "fe6b3a8cc4afedc7",
+      "parentUid" : "0d5b5d5ed9a9bc64a2ee56bbf79043e1",
+      "status" : "passed",
+      "time" : {
+        "start" : 1595412388451,
+        "stop" : 1595412388477,
+        "duration" : 26
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "'10001'", "'密码为空'", "''", "'zhangsan'" ]
+    } ],
+    "uid" : "0d5b5d5ed9a9bc64a2ee56bbf79043e1"
+  }, {
+    "name" : "查询活动接口",
+    "children" : [ {
+      "name" : "无条件查询",
+      "uid" : "4d7647125c94fb81",
+      "parentUid" : "d7966094daf445b7b25aa7229eb4031c",
+      "status" : "failed",
+      "time" : {
+        "start" : 1595412388964,
+        "stop" : 1595412389023,
+        "duration" : 59
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "d7966094daf445b7b25aa7229eb4031c"
+  }, {
+    "name" : "活动预定接口",
+    "children" : [ {
+      "name" : "预定成功",
+      "uid" : "ff767b4b4f961d9d",
+      "parentUid" : "05bc8be79fea568bf3899ba5b7124d03",
+      "status" : "passed",
+      "time" : {
+        "start" : 1595412389042,
+        "stop" : 1595412389077,
+        "duration" : 35
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "05bc8be79fea568bf3899ba5b7124d03"
+  } ]
+}

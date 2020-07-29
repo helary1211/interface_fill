@@ -1,0 +1,117 @@
+{
+  "uid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+  "name" : "timeline",
+  "children" : [ {
+    "name" : "chenmeihuan-l1",
+    "children" : [ {
+      "name" : "4508-MainThread",
+      "children" : [ {
+        "name" : "预定成功",
+        "uid" : "ff767b4b4f961d9d",
+        "parentUid" : "4f8fe16d164627f2189cd9add8063923",
+        "status" : "passed",
+        "time" : {
+          "start" : 1595412389042,
+          "stop" : 1595412389077,
+          "duration" : 35
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "无条件查询",
+        "uid" : "4d7647125c94fb81",
+        "parentUid" : "4f8fe16d164627f2189cd9add8063923",
+        "status" : "failed",
+        "time" : {
+          "start" : 1595412388964,
+          "stop" : 1595412389023,
+          "duration" : 59
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "登录数据测试",
+        "uid" : "fe6b3a8cc4afedc7",
+        "parentUid" : "4f8fe16d164627f2189cd9add8063923",
+        "status" : "passed",
+        "time" : {
+          "start" : 1595412388451,
+          "stop" : 1595412388477,
+          "duration" : 26
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "'10001'", "'密码为空'", "''", "'zhangsan'" ]
+      }, {
+        "name" : "登录数据测试",
+        "uid" : "b70d1f0d9b6c03e9",
+        "parentUid" : "4f8fe16d164627f2189cd9add8063923",
+        "status" : "passed",
+        "time" : {
+          "start" : 1595412388423,
+          "stop" : 1595412388440,
+          "duration" : 17
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "'10000'", "'密码错误'", "'123456'", "'zhangsan'" ]
+      }, {
+        "name" : "无条件查询",
+        "uid" : "5d3d5dc94afbb60b",
+        "parentUid" : "4f8fe16d164627f2189cd9add8063923",
+        "status" : "failed",
+        "time" : {
+          "start" : 1595412388877,
+          "stop" : 1595412388948,
+          "duration" : 71
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "登录数据测试",
+        "uid" : "ceae60f3ef35f9c2",
+        "parentUid" : "4f8fe16d164627f2189cd9add8063923",
+        "status" : "passed",
+        "time" : {
+          "start" : 1595412388288,
+          "stop" : 1595412388412,
+          "duration" : 124
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "'0'", "'登录成功'", "'MTIzMTIzNDU2'", "'zhangsan'" ]
+      }, {
+        "name" : "无条件查询",
+        "uid" : "7c4d5baf4d66af5a",
+        "parentUid" : "4f8fe16d164627f2189cd9add8063923",
+        "status" : "failed",
+        "time" : {
+          "start" : 1595412388718,
+          "stop" : 1595412388852,
+          "duration" : 134
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "无条件查询",
+        "uid" : "4421f5536eab9426",
+        "parentUid" : "4f8fe16d164627f2189cd9add8063923",
+        "status" : "failed",
+        "time" : {
+          "start" : 1595412388489,
+          "stop" : 1595412388551,
+          "duration" : 62
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "4f8fe16d164627f2189cd9add8063923"
+    } ],
+    "uid" : "33484d1a2774061914df513cbb2fddff"
+  } ]
+}

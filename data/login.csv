@@ -1,0 +1,4 @@
+username,password,error_code,msg
+zhangsan,MTIzMTIzNDU2,0,登录成功
+zhangsan,123456,10000,密码错误
+zhangsan,,10001,密码为空
